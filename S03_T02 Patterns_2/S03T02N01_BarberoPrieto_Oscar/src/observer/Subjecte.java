@@ -1,6 +1,6 @@
 package observer;
 
-public interface Subject  {
+public interface Subjecte  {
 
 	void registrarObservador(Observador o);
 	void eliminarObservador(Observador o);

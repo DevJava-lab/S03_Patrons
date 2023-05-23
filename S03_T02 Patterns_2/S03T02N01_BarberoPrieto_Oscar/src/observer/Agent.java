@@ -2,7 +2,7 @@ package observer;
 
 import java.util.*;
 
-public class Agent implements Subject {
+public class Agent implements Subjecte {
 
 	private List<Observador> agencies = new ArrayList<>();
 
