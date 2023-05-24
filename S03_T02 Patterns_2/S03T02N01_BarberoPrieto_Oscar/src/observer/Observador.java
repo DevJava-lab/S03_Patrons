@@ -1,9 +1,10 @@
 package observer;
 
-// Crear interface per substituïr java.util.Observer que està deprecada.
 
-public interface Observador {
+public  abstract class  Observador {
 	
-	void update(String str);
+	protected Agent agent;
+	
+	abstract void update();
 
 }

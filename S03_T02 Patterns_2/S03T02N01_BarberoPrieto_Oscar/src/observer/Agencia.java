@@ -1,24 +1,20 @@
 package observer;
 
-public class Agencia implements Observador {
+public class Agencia extends Observador {
 
 	private String nom;
 
-	public Agencia(String nom) {
+	public Agencia(String nom,Agent agent) {
 		this.nom = nom;
+		this.agent=agent;
+		agent.registrarObservador(this);
 	}
 
 	@Override
-	public void update(String str) {
-		System.out.println(str);
+	public void update() {
+		
+		System.out.println(nom +" : "+ agent.getEstat());
 
-	}
-
-	@Override
-	public String toString() {
-		return "Agencia = " + nom ;
-	}
-	
-	
+	}	
 
 }

@@ -2,31 +2,33 @@ package observer;
 
 import java.util.*;
 
-public class Agent implements Subjecte {
+public class Agent {
 
 	private List<Observador> agencies = new ArrayList<>();
+	private String valor;
 
+	public String getEstat() {
+		return valor;
+	}
 
-	@Override
+	public void setEstat(String valor) {
+		this.valor = valor;
+		notificarObservador();
+	}
+
 	public void registrarObservador(Observador o) {
 		agencies.add(o);
 
 	}
 
-	@Override
 	public void eliminarObservador(Observador o) {
 		agencies.remove(o);
 
 	}
 
-	@Override
-	public void notificarObservador(String noticia) {
-		for (Observador observador : agencies) {
+	public void notificarObservador() {
 
-			System.out.println("Informe per l' "+observador.toString());
-			observador.update(noticia);
+		agencies.forEach(x -> x.update());
 
-		}
 	}
-
 }
