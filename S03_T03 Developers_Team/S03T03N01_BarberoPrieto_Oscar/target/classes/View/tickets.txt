@@ -1,0 +1,8 @@
+
+Floristeria : FLORENCE
+Número ticket : 1
+Data : 06/06/2023
+---------------------------------------------------------------------
+cod : 1 -> Nom = PI , Preu = 2.0 € , Alçada = 2.0 m.
+cod : 2 -> Nom = VIAGE , Preu = 3.0 € , Alçada = 1.0 m.
+Total : 5.0 €

@@ -1,0 +1,10 @@
+
+Floristeria : FLORIS
+Número ticket : 1
+Data : 06/06/2023
+Total : 2.0 €Model.Ticket@41629346
+
+Floristeria : FLORIS
+Número ticket : 2
+Data : 06/06/2023
+Total : 0.0 €Model.Ticket@404b9385

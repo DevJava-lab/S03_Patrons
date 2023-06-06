@@ -1,0 +1,11 @@
+
+Floristeria : FLOREN'S
+Número ticket : 1
+Data : 06/06/2023
+---------------------------------------------------------------------
+cod : 1 -> Nom = PI , Preu = 25.0 € , Alçada = 1.0 m.
+cod : 2 -> Nom = ROSA , Preu = 4.0 € , Color = VERMELLA
+cod : 1 -> Art. decoració = TAULA , Preu = 50.0 € , Material = FUSTA
+cod : 2 -> Art. decoració = CADIRA , Preu = 20.0 € , Material = FUSTA
+
+Total : 99.0 €

@@ -1,0 +1,13 @@
+
+-------------------- Stock Arbres --------------------------
+cod : 1 -> Nom = PI , Preu = 25.0 € , Alçada = 1.0 m.
+cod : 2 -> Nom = FICUS , Preu = 20.0 € , Alçada = 2.0 m.
+
+-------------------- Stock Flors ----------------------------
+cod : 1 -> Nom = ROSA , Preu = 2.0 € , Color = BLAVA
+cod : 2 -> Nom = ROSA , Preu = 4.0 € , Color = VERMELLA
+cod : 3 -> Nom = MARGARITA , Preu = 1.0 € , Color = MULTI
+
+-------------------- Stock Decoracions ------------------
+cod : 1 -> Art. decoració = TAULA , Preu = 50.0 € , Material = FUSTA
+cod : 2 -> Art. decoració = CADIRA , Preu = 20.0 € , Material = FUSTA
